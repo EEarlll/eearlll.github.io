@@ -2,14 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: Roboto Condensed,Lato,Arial,sans-serif;
+  font-family: Roboto Condensed, Lato, Arial, sans-serif;
   cursor: none;
 }
-body{
+body {
   background-color: #191526;
   overflow-x: hidden;
 }
@@ -46,79 +46,120 @@ body{
   height: 7px;
 }
 
-.transparent-border{
+.transparent-border {
   background-color: transparent;
   border-color: transparent;
 }
 
-.top{
+.top {
   top: 0px;
 }
 
-.down{
-  top:-80px;
+.down {
+  top: -80px;
 }
 
-.up{
-  top:0px;
+.up {
+  top: 0px;
 }
 
-.serif{
-  font-family: Palatino,Georgia,Times New Roman,Times,serif;
+.serif {
+  font-family: Palatino, Georgia, Times New Roman, Times, serif;
   font-weight: 100;
 }
 .mono {
   font-family: monospace;
 }
-.boxshadow{
-  box-shadow: 0px -132px 54px 25px rgba(0,0,0,0.74);
-  -webkit-box-shadow: 0px -132px 54px 25px rgba(0,0,0,0.74);
-  -moz-box-shadow: 0px -132px 54px 25px rgba(0,0,0,0.74);
+.boxshadow {
+  box-shadow: 0px -132px 54px 25px rgba(0, 0, 0, 0.74);
+  -webkit-box-shadow: 0px -132px 54px 25px rgba(0, 0, 0, 0.74);
+  -moz-box-shadow: 0px -132px 54px 25px rgba(0, 0, 0, 0.74);
 }
 
-.navbar-mobile{
-  background-image: linear-gradient(-180deg,#0e0c16,#0e0c16 88%,#0e0c16 99%);
-      box-shadow: 0 0 50px 100px #0e0c16;
+.navbar-mobile {
+  background-image: linear-gradient(-180deg, #0e0c16, #0e0c16 88%, #0e0c16 99%);
+  box-shadow: 0 0 50px 100px #0e0c16;
 }
 
-.overlay{
-  position:relative;
-  display:inline-block;
+.overlay {
+  position: relative;
+  display: inline-block;
 }
 
-.overlay:after{
-  position:absolute;
-  content:'';
-  display:block;
-  top:0;
-  left:0;
-  right:0;
-  bottom:0;
+.overlay:after {
+  position: absolute;
+  content: "";
+  display: block;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   box-shadow: 97px 13px 150px -7px hsla(0, 0%, 0%, 0.63) inset;
-  -webkit-box-shadow: 97px 13px 150px -7px rgba(0,0,0,0.63) inset;
-  -moz-box-shadow: 97px 13px 150px -7px rgba(0,0,0,0.60) inset;
+  -webkit-box-shadow: 97px 13px 150px -7px rgba(0, 0, 0, 0.63) inset;
+  -moz-box-shadow: 97px 13px 150px -7px rgba(0, 0, 0, 0.6) inset;
 }
 
 @-webkit-keyframes roll {
-  from { -webkit-transform: rotate(0deg) }
-  to { -webkit-transform: rotate(360deg) }
+  from {
+    -webkit-transform: rotate(0deg);
   }
-  
-  @-moz-keyframes roll {
-  from { -moz-transform: rotate(0deg) }
-  to { -moz-transform: rotate(360deg) }
+  to {
+    -webkit-transform: rotate(360deg);
   }
-  
-  @keyframes roll {
-  from { transform: rotate(0deg) }
-  to { transform: rotate(360deg) }
+}
+
+@-moz-keyframes roll {
+  from {
+    -moz-transform: rotate(0deg);
   }
-  
-  .roll-animation {
+  to {
+    -moz-transform: rotate(360deg);
+  }
+}
+
+@keyframes roll {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.roll-animation {
   -moz-animation-name: roll;
   -moz-animation-duration: 4s;
   -moz-animation-iteration-count: 1;
   -webkit-animation-name: roll;
   -webkit-animation-duration: 4s;
   -webkit-animation-iteration-count: 1;
-  }
+}
+
+/* ScrollBar */
+
+.scrollbarStyle::-webkit-scrollbar {
+  width: 0.3rem;
+  height: 0.01rem;
+}
+
+.scrollbarStyle::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.scrollbarStyle::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
+body::-webkit-scrollbar {
+  width: 0.3rem;
+}
+
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}

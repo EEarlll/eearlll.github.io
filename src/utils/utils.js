@@ -20,6 +20,23 @@ import Pomodoro2 from "../Assets/Pomodoro/Pomodoro2.png";
 import Pomodoro3 from "../Assets/Pomodoro/Pomodoro3.png";
 import Pomodoro4 from "../Assets/Pomodoro/Pomodoro4.png";
 import Pomodoro5 from "../Assets/Pomodoro/Pomodoro5.png";
+import CodeNotes1 from "../Assets/CodeNotes/CodeNotes1.png";
+import CodeNotes2 from "../Assets/CodeNotes/CodeNotes2.png";
+import CodeNotes3 from "../Assets/CodeNotes/CodeNotes3.png";
+import CodeNotes4 from "../Assets/CodeNotes/CodeNotes4.png";
+import CodeNotes5 from "../Assets/CodeNotes/CodeNotes5.png";
+import CodeNotes6 from "../Assets/CodeNotes/CodeNotes6.png";
+import CodeNotes7 from "../Assets/CodeNotes/CodeNotes7.png";
+import MRS1 from "../Assets/MRS/MRS1.png";
+import MRS2 from "../Assets/MRS/MRS2.png";
+import MRS3 from "../Assets/MRS/MRS3.png";
+import MRS4 from "../Assets/MRS/MRS4.png";
+import MRS5 from "../Assets/MRS/MRS5.png";
+import MRS6 from "../Assets/MRS/MRS6.png";
+import Ftd1 from "../Assets/Ftd/Ftd1.png";
+import Ftd2 from "../Assets/Ftd/Ftd2.png";
+import Ftd3 from "../Assets/Ftd/Ftd3.png";
+import Ftd4 from "../Assets/Ftd/Ftd4.png";
 
 export const Images = {
   explore_books1,
@@ -44,4 +61,21 @@ export const Images = {
   Pomodoro3,
   Pomodoro4,
   Pomodoro5,
+  CodeNotes1,
+  CodeNotes2,
+  CodeNotes3,
+  CodeNotes4,
+  CodeNotes5,
+  CodeNotes6,
+  CodeNotes7,
+  MRS1,
+  MRS2,
+  MRS3,
+  MRS4,
+  MRS5,
+  MRS6,
+  Ftd1,
+  Ftd2,
+  Ftd3,
+  Ftd4,
 };

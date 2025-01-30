@@ -5,6 +5,21 @@ import Reveal from "../Components/Reveal.jsx";
 import { Images } from "../utils/utils.js";
 
 const project_list = {
+  CodeNotes: {
+    id: "0",
+    source: [
+      Images.CodeNotes1,
+      Images.CodeNotes2,
+      Images.CodeNotes3,
+      Images.CodeNotes4,
+      Images.CodeNotes5,
+      Images.CodeNotes6,
+      Images.CodeNotes7,
+    ],
+    info: "CodeNotes is platform for sharing and discovering snippets. Easily create, format, and organize your snippets for various purposes.",
+    tech: "React, Vite, shadCN, TanStack Query, React Router, TailwindCSS, Flask, SQLite, Waitress, Firebase Authentication, Nginx, Docker",
+    url: "https://earleustacio.me/",
+  },
   ExploreBooks: {
     id: "1",
     source: [
@@ -57,6 +72,27 @@ const project_list = {
     info: "This is a simple web application made to practice the fundamentals of HTML/CSS/JS. The Pomodoro Technique is a time management method that uses a timer to break work into intervals, traditionally 25 minutes in length, separated by short breaks.",
     tech: "HTML, CSS, JS",
     url: "https://eearlll.github.io/Pomodoro/",
+  },
+  "Movie Reservation System": {
+    id: "6",
+    source: [
+      Images.MRS1,
+      Images.MRS2,
+      Images.MRS3,
+      Images.MRS4,
+      Images.MRS5,
+      Images.MRS6,
+    ],
+    info: "The Movie Reservation System is a web application designed to allow users to browse, search, and reserve movie tickets. It provides a comprehensive list of movies, including details such as genre, plot, runtime, and poster images.",
+    tech: "ASP.NET Core MVC, Entity Framework, SQL Server, Bootstrap, Razor",
+    url: "https://github.com/EEarlll/MovieReservationSystemMVC",
+  },
+  "Filipino Translate Dictionary": {
+    id: "7",
+    source: [Images.Ftd1, Images.Ftd2, Images.Ftd3, Images.Ftd4],
+    info: "This project is a comprehensive language translation and dictionary service specializing in Filipino languages such as Ilocano, Hiligaynon, Cebuano, and Tagalog. The application leverages Google Translate for translations and utilizes a dictionary populated with data scraped from multiple sources.",
+    tech: "Angular, Angular Material, Google Translate API, Express.js, Puppeteer, PostgreSQL",
+    url: "https://filipino-translate-dictionary.vercel.app/",
   },
 };
 
@@ -252,12 +288,12 @@ const Project = () => {
             </footer>
           </div>
           {/* main */}
-          <div className="grow ">
+          <div className="grow flex items-center justify-center bg-black">
             <img
               key={project_list[id].source[srcIndex]}
               src={`${project_list[id].source[srcIndex]}`}
               alt={id}
-              className="scale-x-[1.4] scale-y-[1.3] translate-y-[15%] md:transform-none h-full"
+              className="h-full object-contain"
             />
           </div>
         </div>

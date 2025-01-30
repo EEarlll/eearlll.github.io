@@ -27,6 +27,46 @@ const CodeStyle = ({ text, color, dot }) => {
   );
 };
 
+const SkillStyle = ({ num, text }) => {
+  return (
+    <div
+      className={`hover:bg-[#231D28] before:content-[attr(data-num)] before:left-[10%] before:md:left-[12.5%] before:absolute before:text-accent`}
+      data-num={num}
+    >
+      <CodeStyle text={"{ "} color={"white"} dot={6} />
+      <CodeStyle text={text} color={"method"} />
+      <CodeStyle text={"  } ,"} color={"white"} />
+    </div>
+  );
+};
+
+const EducationStyle = ({ num, text }) => {
+  return (
+    <div
+      className={`hover:bg-[#231D28] before:content-[attr(data-num)] before:left-[10%] before:md:left-[12.5%] before:absolute before:text-accent`}
+      data-num={num}
+    >
+      <CodeStyle text={"{ "} color={"white"} dot={6} />
+      <CodeStyle text={text} color={"method"} />
+      <CodeStyle text={"  } ,"} color={"white"} />
+    </div>
+  );
+};
+
+const SkillList = [
+  "'HTML/CSS/JS', 'Bootstrap/Tailwind', 'Webpack/Vite'",
+  "'npm/yarn/pip', 'SSR', 'SPA', 'GIT'",
+  "'Firebase', 'MySQL', 'MongoDB', 'MsSQL', 'PostgreSQL', 'SQLite'",
+  "'Wordpress', 'React', 'Angular' ,'React Native' ,'NextJS', 'Laravel', 'ASP.NET Core','Pytorch'",
+  "'C#', 'Python', 'C', 'PHP', 'Node.js', 'Typescript'",
+];
+
+const EducationList = [
+  "'2006-2012': 'Jubileum Academy'",
+  "'2012-2019': 'The Thomas Aquinas Institute of Learning'",
+  "'2019-Present': 'Lyceum of the Philippines University Cavite - Bachelor of Engineering Major in Computer Engineering'",
+];
+
 function About() {
   return (
     <div className=" min-h-[100vh] bg-[#14121c]" id="about">
@@ -80,11 +120,8 @@ function About() {
             <div className="hover:bg-[#231D28] before:content-['06'] before:left-[10%] before:md:left-[12.5%] before:absolute before:text-accent">
               <CodeStyle text={"self"} color={"instance"} dot={4} />
               <CodeStyle text={"."} color={"white"} />
-              <CodeStyle
-                text={"day_of_birth_timestamp"}
-                color={"instance_name"}
-              />
-              <CodeStyle text={" = 1026619200"} color={"number"} />
+              <CodeStyle text={"day_of_birth"} color={"instance_name"} />
+              <CodeStyle text={" = 20020714"} color={"number"} />
               <br />
             </div>
             <div className="hover:bg-[#231D28] before:content-['07'] before:left-[10%] before:md:left-[12.5%] before:absolute before:text-accent">
@@ -113,34 +150,9 @@ function About() {
               <CodeStyle text={"return"} color={"primary"} dot={4} />
               <CodeStyle text={" ["} color={"white"} />
             </div>
-            <div className="hover:bg-[#231D28] before:content-['10'] before:left-[10%] before:md:left-[12.5%] before:absolute before:text-accent">
-              <CodeStyle text={"{ "} color={"white"} dot={6} />
-              <CodeStyle
-                text={" '2006-2012': 'Jubileum Academy'"}
-                color={"method"}
-              />
-              <CodeStyle text={"  } ,"} color={"white"} />
-            </div>
-            <div className="hover:bg-[#231D28] before:content-['11'] before:left-[10%] before:md:left-[12.5%] before:absolute before:text-accent">
-              <CodeStyle text={"{ "} color={"white"} dot={6} />
-              <CodeStyle
-                text={
-                  " '2012-2019': 'The Thomas Aquinas Institute of Learning'"
-                }
-                color={"method"}
-              />
-              <CodeStyle text={"  } ,"} color={"white"} />
-            </div>
-            <div className="hover:bg-[#231D28] before:content-['12'] before:left-[10%] before:md:left-[12.5%] before:absolute before:text-accent">
-              <CodeStyle text={"{ "} color={"white"} dot={6} />
-              <CodeStyle
-                text={
-                  " '2019-Present': 'Lyceum of the Philippines University Cavite - Bachelor of Engineering Major in Computer Engineering'"
-                }
-                color={"method"}
-              />
-              <CodeStyle text={"  } ,"} color={"white"} />
-            </div>
+            {EducationList.map((education, index) => (
+              <EducationStyle text={education} num={index + 10} />
+            ))}
             <div className="hover:bg-[#231D28] before:content-['13'] before:left-[10%] before:md:left-[12.5%] before:absolute before:text-accent">
               <CodeStyle text={"]"} color={"white"} dot={4} />
             </div>
@@ -159,46 +171,9 @@ function About() {
               <CodeStyle text={"return"} color={"primary"} dot={4} />
               <CodeStyle text={" ["} color={"white"} />
             </div>
-            <div className="hover:bg-[#231D28] before:content-['16'] before:left-[10%] before:md:left-[12.5%] before:absolute before:text-accent">
-              <CodeStyle text={"{ "} color={"white"} dot={6} />
-              <CodeStyle
-                text={"'HTML/CSS/JS', 'Bootstrap/Tailwind', 'Webpack/Vite'"}
-                color={"method"}
-              />
-              <CodeStyle text={"  } ,"} color={"white"} />
-            </div>
-            <div className="hover:bg-[#231D28] before:content-['17'] before:left-[10%] before:md:left-[12.5%] before:absolute before:text-accent">
-              <CodeStyle text={"{ "} color={"white"} dot={6} />
-              <CodeStyle
-                text={"'npm/yarn/pip', 'SSR', 'SPA', 'GIT'"}
-                color={"method"}
-              />
-              <CodeStyle text={"  } ,"} color={"white"} />
-            </div>
-            <div className="hover:bg-[#231D28] before:content-['18'] before:left-[10%] before:md:left-[12.5%] before:absolute before:text-accent">
-              <CodeStyle text={"{ "} color={"white"} dot={6} />
-              <CodeStyle
-                text={"'Firebase', 'MySQL/MongoDB/MsSQL'"}
-                color={"method"}
-              />
-              <CodeStyle text={"  } ,"} color={"white"} />
-            </div>
-            <div className="hover:bg-[#231D28] before:content-['19'] before:left-[10%] before:md:left-[12.5%] before:absolute before:text-accent">
-              <CodeStyle text={"{ "} color={"white"} dot={6} />
-              <CodeStyle
-                text={"'Wordpress', 'React', 'NextJS', 'Laravel', 'Pytorch'"}
-                color={"method"}
-              />
-              <CodeStyle text={"  } ,"} color={"white"} />
-            </div>
-            <div className="hover:bg-[#231D28] before:content-['20'] before:left-[10%] before:md:left-[12.5%] before:absolute before:text-accent">
-              <CodeStyle text={"{ "} color={"white"} dot={6} />
-              <CodeStyle
-                text={"'C#', 'Python', 'C', 'PHP', 'Node.js'"}
-                color={"method"}
-              />
-              <CodeStyle text={"  } ,"} color={"white"} />
-            </div>
+            {SkillList.map((skill, index) => (
+              <SkillStyle text={skill} num={index + 16} />
+            ))}
             <div className="hover:bg-[#231D28] before:content-['21'] before:left-[10%] before:md:left-[12.5%] before:absolute before:text-accent">
               <CodeStyle text={"]"} color={"white"} dot={4} />
             </div>
