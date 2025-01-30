@@ -55,6 +55,7 @@ const chunkProjects = (arr) => {
 
 const Work = () => {
   const projectRows = chunkProjects(projects);
+  console.log(projectRows);
   let rowNum = 0;
 
   return (
@@ -74,7 +75,9 @@ const Work = () => {
         return (
           <div
             key={projectRowIndex}
-            className={`grid grid-cols-1 md:grid-cols-${row.length} gap-12 md:gap-0 items-end pt-20`}
+            className={`grid grid-cols-1 ${
+              row.length === 3 ? "md:grid-cols-3" : "md:grid-cols-2"
+            } gap-12 md:gap-0 items-end pt-14`}
           >
             {row.map((project, index) => {
               return (
