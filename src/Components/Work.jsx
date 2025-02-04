@@ -23,9 +23,9 @@ const projects = [
     project: "Movie Reservation System",
   },
   {
-    img_src: "E-Trends_logo.png",
-    caption: "E-Trends",
-    project: "E-Trends",
+    img_src: "TTAIL_logo.png",
+    caption: "TTAIL Attendance System",
+    project: "TTAIL Attendance System",
   },
   {
     img_src: "portfolio_logo.png",
@@ -36,6 +36,11 @@ const projects = [
     img_src: "Ftd_logo.png",
     caption: "Filipino Translate Dictionary",
     project: "Filipino Translate Dictionary",
+  },
+  {
+    img_src: "E-Trends_logo.png",
+    caption: "E-Trends",
+    project: "E-Trends",
   },
 ];
 

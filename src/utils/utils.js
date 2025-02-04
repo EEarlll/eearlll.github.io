@@ -37,6 +37,9 @@ import Ftd1 from "../Assets/Ftd/Ftd1.png";
 import Ftd2 from "../Assets/Ftd/Ftd2.png";
 import Ftd3 from "../Assets/Ftd/Ftd3.png";
 import Ftd4 from "../Assets/Ftd/Ftd4.png";
+import Ttail1 from "../Assets/TTAIL/TTAIL1.png";
+import Ttail2 from "../Assets/TTAIL/TTAIL2.png";
+import Ttail3 from "../Assets/TTAIL/TTAIL3.png";
 
 export const Images = {
   explore_books1,
@@ -78,4 +81,7 @@ export const Images = {
   Ftd2,
   Ftd3,
   Ftd4,
+  Ttail1,
+  Ttail2,
+  Ttail3,
 };

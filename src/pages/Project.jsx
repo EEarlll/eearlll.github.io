@@ -40,18 +40,12 @@ const project_list = {
     tech: "Laravel, PHP, MySql, DaisyUi, Tailwindcss",
     url: "https://github.com/EEarlll/Price-data-exchange",
   },
-  "E-Trends": {
+  "TTAIL Attendance System": {
     id: "3",
-    source: [
-      Images.e_trends1,
-      Images.e_trends2,
-      Images.e_trends3,
-      Images.e_trends4,
-      Images.e_trends5,
-    ],
-    info: "Created this website with the intention of learning and exploring various technologies. My primary focus has been on Vite, React, and Tailwind CSS.",
-    tech: "Vite, React, and Tailwind CSS",
-    url: "https://e-trends.vercel.app/",
+    source: [Images.Ttail1, Images.Ttail2, Images.Ttail3],
+    info: "This project involves the development of an advanced attendance system using PHP and MySQL, enhanced with GSM module integration for SMS notifications. The primary features include QR code-based attendance recording and automated SMS alerts to ensure efficient and reliable attendance tracking. The system has been successfully implemented in two educational institutions: The Thomas Aquinas Institute of Learning and Southwoods School of Cavite.",
+    tech: "PHP, MySQL, HTML, CSS, JavaScript, QR Code Libraries/Tools, GSM Module",
+    url: "https://github.com/EEarlll/TTAIL",
   },
   Portfolio: {
     id: "4",
@@ -93,6 +87,19 @@ const project_list = {
     info: "This project is a comprehensive language translation and dictionary service specializing in Filipino languages such as Ilocano, Hiligaynon, Cebuano, and Tagalog. The application leverages Google Translate for translations and utilizes a dictionary populated with data scraped from multiple sources.",
     tech: "Angular, Angular Material, Google Translate API, Express.js, Puppeteer, PostgreSQL",
     url: "https://filipino-translate-dictionary.vercel.app/",
+  },
+  "E-Trends": {
+    id: "8",
+    source: [
+      Images.e_trends1,
+      Images.e_trends2,
+      Images.e_trends3,
+      Images.e_trends4,
+      Images.e_trends5,
+    ],
+    info: "Created this website with the intention of learning and exploring various technologies. My primary focus has been on Vite, React, and Tailwind CSS.",
+    tech: "Vite, React, and Tailwind CSS",
+    url: "https://e-trends.vercel.app/",
   },
 };
 
