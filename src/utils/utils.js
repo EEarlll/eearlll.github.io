@@ -40,6 +40,10 @@ import Ftd4 from "../Assets/Ftd/Ftd4.png";
 import Ttail1 from "../Assets/TTAIL/TTAIL1.png";
 import Ttail2 from "../Assets/TTAIL/TTAIL2.png";
 import Ttail3 from "../Assets/TTAIL/TTAIL3.png";
+import Cortex1 from "../Assets/Cortex/Cortex1.png";
+import Cortex2 from "../Assets/Cortex/Cortex2.png";
+import Cortex3 from "../Assets/Cortex/Cortex3.png";
+import GeminiCli1 from "../Assets/GeminiCli/GeminiCli_logo.png";
 
 export const Images = {
   explore_books1,
@@ -84,4 +88,8 @@ export const Images = {
   Ttail1,
   Ttail2,
   Ttail3,
+  Cortex1,
+  Cortex2,
+  Cortex3,
+  GeminiCli1,
 };

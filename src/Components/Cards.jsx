@@ -8,7 +8,7 @@ const Cards = ({ img_src, caption, num, project }) => {
   return (
     <Link to={"project/" + project}>
       <div
-        className="flex w-fit relative [perspective:200px] "
+        className="flex w-fit relative [perspective:200px]"
         onMouseEnter={(e) => {
           boundingRef.current = e.currentTarget.getBoundingClientRect();
         }}
@@ -35,7 +35,7 @@ const Cards = ({ img_src, caption, num, project }) => {
             <img
               src={`/${img_src}`}
               alt=""
-              className="rounded object-cover w-56 md:w-96"
+              className="rounded object-cover w-56 md:w-80"
             ></img>
           </Reveal>
         </div>

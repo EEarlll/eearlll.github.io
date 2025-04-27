@@ -42,6 +42,16 @@ const projects = [
     caption: "E-Trends",
     project: "E-Trends",
   },
+  {
+    img_src: "Cortex_logo.png",
+    caption: "Wikipedia Summarized",
+    project: "Wikipedia Summarized",
+  },
+  {
+    img_src: "GeminiCli_logo.png",
+    caption: "Gemini CLI",
+    project: "Gemini CLI",
+  },
 ];
 
 const chunkProjects = (arr) => {

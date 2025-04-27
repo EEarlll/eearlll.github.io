@@ -101,6 +101,20 @@ const project_list = {
     tech: "Vite, React, and Tailwind CSS",
     url: "https://e-trends.vercel.app/",
   },
+  "Wikipedia Summarized": {
+    id: "9",
+    source: [Images.Cortex1, Images.Cortex2, Images.Cortex3],
+    info: "This project is a web application that provides summarized information from Wikipedia articles. It utilizes the Wikipedia API to fetch article content and employs Gemini 2.5 Flash model to generate concise summaries.",
+    tech: "Angular, PrimeNG, Gemini 2.5 Flash, MediaWiki API, firebase",
+    url: "https://cortex-645b7.web.app/",
+  },
+  "Gemini CLI": {
+  id: "10",
+    source: [Images.GeminiCli1],
+    info: "Gemini CLI is a command-line interface (CLI) tool designed to interact with the Gemini protocol. It allows users to access and interact with gemini, providing a simple and efficient way to call api in a text-based environment.",
+    tech: "Bash, Gemini Protocol, curl, jq",
+    url: "https://github.com/EEarlll/gemini-cli"
+  }
 };
 
 const Project = () => {
