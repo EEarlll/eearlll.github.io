@@ -303,6 +303,7 @@ export function SourceCode() {
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      href=""
       className="w-8 h-8 stroke-current text-primary cursor-pointer transition duration-200 ease-in-out hover:scale-110"
     >
       <g id="SVGRepo_bgCarrier" stroke-width="0"></g>

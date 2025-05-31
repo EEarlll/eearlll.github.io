@@ -113,7 +113,7 @@ export default function About() {
       <div className="grid m-5 md:m-10 grid-cols-1 md:grid-cols-6 gap-4 rounded justify-center items-center">
         <div className="flex justify-center items-center md:col-span-2">
           <img
-            src={theme === "dark" ? "/logoDark.png" : "/logoLight.png"}
+            src={theme === "dark" ? "/logoDark.webp" : "/logoLight.webp"}
             alt=""
             className="h-[150px] w-[150px] rounded-full object-cover"
           />

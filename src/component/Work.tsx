@@ -13,7 +13,7 @@ const projectList = [
     title: "CodeNotes",
     description:
       "CodeNotes is platform for sharing and discovering snippets. Easily create, format, and organize your snippets for various purposes.",
-    imageUrl: "/Images/CodeNotes/CodeNotes1.png",
+    imageUrl: "/Images/CodeNotes/CodeNotes1.webp",
     link: "https://earleustacio.me/",
     tech: [
       "React",
@@ -34,7 +34,7 @@ const projectList = [
     title: "ExploreBooks",
     description:
       "A feature-rich app for book enthusiasts to add, edit, and view books with PDF attachments. Built to hone full-stack skills.",
-    imageUrl: "/Images/ExploreBooks/explore_books_logo.png",
+    imageUrl: "/Images/ExploreBooks/explore_books_logo.webp",
     link: "https://explorebooks.vercel.app/",
     tech: [
       "Next.js",
@@ -50,7 +50,7 @@ const projectList = [
     title: "Price Data Exchange (PDE)",
     description:
       "Web app for historical data on fiat, crypto, and stocks with confidence indicators. Built for Laravel PHP and MySQL practice.",
-    imageUrl: "/Images/PDE/pde1.png",
+    imageUrl: "/Images/PDE/pde1.webp",
     link: "https://github.com/EEarlll/Price-data-exchange",
     tech: ["Laravel", "PHP", "MySql", "DaisyUi", "Tailwindcss"],
   },
@@ -58,7 +58,7 @@ const projectList = [
     title: "TTAIL Attendance System",
     description:
       "Advanced attendance system with QR code and SMS notifications, implemented in educational institutions.",
-    imageUrl: "/Images/TTAIL/TTAIL1.png",
+    imageUrl: "/Images/TTAIL/TTAIL1.webp",
     link: "https://github.com/EEarlll/TTAIL",
     tech: [
       "PHP",
@@ -73,7 +73,7 @@ const projectList = [
   {
     title: "Old Portfolio",
     description: "Created to showcase and practice web development skills.",
-    imageUrl: "/Images/Portfolio/portfolio_logo.png",
+    imageUrl: "/Images/Portfolio/portfolio_logo.webp",
     link: "/",
     tech: ["React", "Vite", "Tailwindcss", "Framer Motion"],
   },
@@ -81,7 +81,7 @@ const projectList = [
     title: "Pomodoro",
     description:
       "Simple Pomodoro timer web app to practice HTML/CSS/JS fundamentals.",
-    imageUrl: "/Images/Pomodoro/Pomodoro1.png",
+    imageUrl: "/Images/Pomodoro/Pomodoro1.webp",
     link: "https://eearlll.github.io/Pomodoro/",
     tech: ["HTML", "CSS", "JS"],
   },
@@ -89,7 +89,7 @@ const projectList = [
     title: "Movie Reservation System",
     description:
       "Web app for browsing, searching, and reserving movie tickets with detailed movie info.",
-    imageUrl: "/Images/MRS/MRS1.png",
+    imageUrl: "/Images/MRS/MRS1.webp",
     link: "https://github.com/EEarlll/MovieReservationSystemMVC",
     tech: [
       "ASP.NET Core MVC",
@@ -103,7 +103,7 @@ const projectList = [
     title: "Filipino Translate Dictionary",
     description:
       "Comprehensive translation and dictionary service for Filipino languages, leveraging Google Translate and scraped data.",
-    imageUrl: "/Images/Ftd/Ftd1.png",
+    imageUrl: "/Images/Ftd/Ftd1.webp",
     link: "https://filipino-translate-dictionary.vercel.app/",
     tech: [
       "Angular",
@@ -118,7 +118,7 @@ const projectList = [
     title: "E-Trends",
     description:
       "Website created to learn and explore Vite, React, and Tailwind CSS.",
-    imageUrl: "/Images/E-trends/E-Trends1.png",
+    imageUrl: "/Images/E-trends/E-Trends1.webp",
     link: "https://e-trends.vercel.app/",
     tech: ["Vite", "React", "Tailwind CSS"],
   },
@@ -126,7 +126,7 @@ const projectList = [
     title: "Wikipedia Summarized",
     description:
       "Web app providing summarized Wikipedia articles using Gemini 2.5 Flash and Wikipedia API.",
-    imageUrl: "/Images/Cortex/Cortex1.png",
+    imageUrl: "/Images/Cortex/Cortex1.webp",
     link: "https://cortex-645b7.web.app/",
     tech: [
       "Angular",
@@ -140,7 +140,7 @@ const projectList = [
     title: "Gemini CLI",
     description:
       "CLI tool to interact with the Gemini protocol and call APIs in a text-based environment.",
-    imageUrl: "/Images/GeminiCli/GeminiCli_logo.png",
+    imageUrl: "/Images/GeminiCli/GeminiCli_logo.webp",
     link: "https://github.com/EEarlll/gemini-cli",
     tech: ["Bash", "Gemini Protocol", "curl", "jq"],
   },

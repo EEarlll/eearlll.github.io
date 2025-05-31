@@ -16,7 +16,7 @@ function AppContent() {
       setBgPlaying(false);
     },
   });
-  
+
   useEffect(() => {
     if (!musicEnabled) {
       stop();
@@ -218,7 +218,7 @@ function AppContent() {
             fill={theme === "light" ? "#B9DDFF" : "#315F81"}
             paused={false}
             style={{
-              height: "258px",
+              height: "4  0%",
               position: "absolute",
               bottom: "0",
               zIndex: "1",
@@ -233,7 +233,9 @@ function AppContent() {
         </div>
       </main>
       <footer className="flex flex-col justify-center items-center z-[1] p-4 bg-[#B9DDFF] dark:bg-[#315F81]">
-        <SourceCode />
+        <a href="https://github.com/EEarlll/eearlll.github.io" target="_blank">
+          <SourceCode />
+        </a>
         <p className="text-text">© 2025 Earl Eustacio.</p>
       </footer>
     </div>

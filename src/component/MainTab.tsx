@@ -81,7 +81,7 @@ export default function MainTab() {
             <p className="md:text-2xl text-lg font-light text-text">
               developer and programmer
             </p>
-            <div className="flex flex-wrap gap-6 md:gap-8 pt-16 justify-center items-center">
+            <div className="flex flex-wrap gap-8 md:gap-8 pt-16 justify-center items-center">
               {menuItems.map((item) => (
                 <div
                   key={item.id}
