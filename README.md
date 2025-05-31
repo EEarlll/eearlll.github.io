@@ -52,7 +52,7 @@ VITE_SYSTEM_INSTRUCTION="Your system instruction message here..."
 
    ```bash
    git clone https://github.com/EEarlll/Portfolio.git
-   cd your-repo-name
+   cd Portfolio
    ```
 
 2. **Install Dependencies:**
