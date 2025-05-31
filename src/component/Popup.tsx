@@ -98,7 +98,7 @@ export default function Popup({
         ref={popupRef}
         onClick={(e) => e.stopPropagation()}
       >
-        <div className="pt-[66px] bg-background/60 backdrop-blur-[0.5px]"></div>
+        <div className="pt-[14px] bg-background/60 backdrop-blur-[0.5px]"></div>
         <div className="flex border-y border-accent  bg-accent dark:bg-background text-white dark:text-text p-3 justify-between items-center rounded-t-lg">
           <p className="font-bold">{title}</p>
           <button

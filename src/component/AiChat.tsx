@@ -30,11 +30,6 @@ const intro = {
         Need help thinking something through? I’m all ears.
       </li>
       <li className="text-yellow">Just feel like chatting? I’m down.</li>
-      <br />
-      <p className="text-[#ff74a9]">
-        No pressure, no judgment—just start typing and let’s see where it goes.
-      </p>
-      <br />
     </>
   ),
 };
@@ -124,7 +119,7 @@ export default function AiChat() {
 
   return (
     <div className="h-[500px] p-2 md:p-10 bg-background text-xl text-left">
-      <div className="h-[87%] overflow-hidden flex flex-col justify-end mb-4">
+      <div className="h-[70%] overflow-hidden flex flex-col justify-end mb-4">
         {output.map((line, index) =>
           React.isValidElement(line.text) ? (
             <div key={index} className="text-secondary">
