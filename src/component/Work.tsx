@@ -74,7 +74,7 @@ const projectList = [
     title: "Old Portfolio",
     description: "Created to showcase and practice web development skills.",
     imageUrl: "/Images/Portfolio/portfolio_logo.webp",
-    link: "/",
+    link: "https://eearlll.github.io/portfolio2/",
     tech: ["React", "Vite", "Tailwindcss", "Framer Motion"],
   },
   {
