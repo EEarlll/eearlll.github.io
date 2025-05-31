@@ -218,7 +218,7 @@ function AppContent() {
             fill={theme === "light" ? "#B9DDFF" : "#315F81"}
             paused={false}
             style={{
-              height: "4  0%",
+              height: "40%",
               position: "absolute",
               bottom: "0",
               zIndex: "1",
